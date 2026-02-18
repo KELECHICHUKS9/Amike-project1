@@ -4,343 +4,230 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5d34a971e1.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-    
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
+
 <body>
-    <!-- header part -->
-     <header>
-<img src="c:\Users\Zeph\Downloads\logo (1).png" alt="make portfolio">
-
-<nav>
-   <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">service</a></li>
-    <li><a href="">portfolio</a></li>
-    <li><a href="">skills</a></li>
-    <li><a href="">contact</a></li>
-    <li><a href="">Blog</a></li>
-
-                  
-   </ul>
-</nav>
-     </header>
-
-     <!-- main part -->
-      <main>
-        <!-- home section -->
-         <section id="home">
-           
-            <!-- right div  -->
-<div>
-    <!-- social icon  -->
-    <div>
-        <div class="socail"><i class="fa-brands fa-instagram"></i></div>
-        <div class="socail"><i class="fa-brands fa-facebook-f"></i></div>
-        <div class="socail"><i class="fa-brands fa-twitter"></i></div>
-        <div class="socail"></div>
-        <div class="socail"></div>
-    </div>
-<h1>Hi i am Amike</h1>
-<p>i'm Jonathan, professional web developer with long time experience in this field​</p>
-
-<div>
-    <button>My profil</button>
-   <button> Hire me</button>
-</div>
-</div>
-
-<!-- left side -->
-<div></div>
-         </section>
-
-         <!-- about section -->
-         <section id="about"></section>
-
-         <!-- service section  -->
-          <section id="My service">
-             <!-- top part -->
-             <div>
-                <p>My service</p>
-                <p>Here are the servies i offer to my clients. best in class qualiy and service</p>
-                <h2></h2>
-             </div>
-          </section>
-
-          <!-- bottom line -->
-           <div class="card">
-           <h3> Web Development</h3>
-           <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-           <i class="fa-sharp fa-regular fa-web-awesome"></i>
-           </div>
-
-           <div class="card">
-           <h3>Web Design</h3> 
-           <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-           <i class="fa-solid fa-box"></i>
-           </div>
-
-           <div class="card">
-            <h3>Video Editing</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-            <i class="fa-solid fa-video"></i>
-           </div>
-
-           <div class="card">
-            <h3>Photography</h3>
-           <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-           <i class="fa-regular fa-camera"></i>
-           </div>
-
-           <div class="card">
-            <h3>App Developing</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-            <i class="fa-brands fa-apple"></i>
-           </div>
-
-           <div class="card">
-            <h3>SEO Expart</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-            <i class="fa-solid fa-marker"></i>
-           </div>
-
-
-          <!-- portfolio section  -->
-           <section id="portfolio"></section>
-
-            <!-- skills section  -->
-             <section id="skills"></section>
 
-             <!-- section contact  -->
-              <section id="contact"></section>
-      </main>
+    <!-- Header -->
+    <header class="horizontal">
+        <img src="./images/logo (1).png" alt="Make portfolio" id="branding">
+
+        <nav>
+            <ul class="horizontal">
+                <li class="navitem"><a href="#home">Home</a></li>
+                <li class="navitem"><a href="#about">About</a></li>
+                <li class="navitem"><a href="#myservice">Service</a></li>
+                <li class="navitem"><a href="#portfolio">Portfolio</a></li>
+                <li class="navitem"><a href="#skills">Skills</a></li>
+                <li class="navitem"><a href="#contact">Contact</a></li>
+                <li class="navitem"><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+
+        <div id="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="horizontal">
+          <div class="leftside">
+
+      
+
+                <!-- Social Icons -->
+                <div class="socialbt">
+                    <div class="socialcon"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="socialcon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="socialcon"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="socialcon"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="socialcon"><i class="fa-brands fa-pinterest-p"></i></div>
+                </div>
+
+                <!-- Intro Text -->
+                <div class="pright">
+                    <h1 id="boldtitle" class="boldtitle">Hi, I am Jonathan Deo</h1>
+                    <p id="description">
+                        I'm Jonathan, a professional web developer with long time experience in this field.
+                    </p>
+                </div>
+
+                <div id="btnmain">
+                    <button class="btn">My Portfolio</button>
+                    <button class="btnt">
+                        <i class="fa-brands fa-youtube"></i>
+                    </button>
+                </div>
+
+         </div>
+
+            <img src="./images/profile man.png" alt="Profile Image" id="image" class="profileimg">
+
+        </section>
+
+        <!-- Services Section -->
+        <section class="myservice" id="myservice">
+
+            <div class="cont">
+                <div class="servicecont">
+                    <p class="pwrite">SERVICES</p>
+                    <h1 class="title">My Services</h1>
+                    <p class="subtitle">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                    </p>
+                    <span class="line" aria-hidden="true"></span>
+                </div>
+
+                <div class="service-con">
+
+                    <div class="card">
+                        <i class="fa-solid fa-box"></i>
+                        <h3>Web Design</h3>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing typesetting industry.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-video"></i>
+                        <h3>Video Editing</h3>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing typesetting industry.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-regular fa-camera"></i>
+                        <h3>Photography</h3>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing typesetting industry.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-brands fa-apple"></i>
+                        <h3>App Developing</h3>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing typesetting industry.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-marker"></i>
+                        <h3>SEO Expert</h3>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing typesetting industry.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+
+
+
+            <h1>About Me</h1>
+            
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+
+
+            <div class="image-section">
+            <img src="./images/pgman.png" alt="" class="img-right">
+            </div>
+
+            
+            <!-- right-side -->
+            <div class="text-item">
+                <h1 class="content-sectionh1">Hi There</h1>
+        
+        
+          <p>
+                In id nulla magna. Nullam posuere fermentum mattis.
+          </p>
+
+
+          <div class="personal-info">
+                <p><strong class="h1item">Name:</strong> Jonathan Doe</p>
+                <p><strong class="h1item">Phone:</strong> +1 023 454 345</p>
+                <p><strong class="h1item">Email:</strong> chukwunenyekelechi4@gmail.com</p>
+                <p><strong class="h1item">LinkedIn:</strong> </p>
+                </div>
+            
+            </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div>
+                <p>I'M EXPERT ON</p>
+                <h1>Let's Work Together</h1>
+                <p>
+                    Phasellus accumsan scelerisque dolor, quis mattis justo bibendum non.
+                </p>
+                <button>Hire Me Now</button>
+            </div>
+
+            <div class="skills-list">
+                <div><p>Node JS - 88%</p></div>
+                <div><p>Python - 81%</p></div>
+                <div><p>Laravel - 70%</p></div>
+                <div><p>SEO - 90%</p></div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h1>Portfolio Showcase</h1>
+
+            <div class="portfolio-gallery">
+                <img src="./images/amike1.jpg" alt="Project 1">
+                <img src="./images/amike 2.jpg" alt="Project 2">
+                <img src="./images/amike 3.jpg" alt="Project 3">
+                <img src="./images/amike4.jpg" alt="Project 4">
+                <img src="./images/amike5.jpg" alt="Project 5">
+                <img src="./images/amike6.jpg" alt="Project 6">
+                <img src="./images/amike7.jpg" alt="Project 7">
+                <img src="./images/amike8.jpg" alt="Project 8">
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="blog">
+            <p>CHOOSE A PLAN</p>
+            <h1>Pricing Plan</h1>
+
+            <div class="pricing">
+
+                <div class="card basic">
+                    <h3>Basic</h3>
+                    <h1><span>$</span>50</h1>
+                    <button>Purchase</button>
+                </div>
+
+                <div class="card standard recommended">
+                    <span class="badge">Recommended</span>
+                    <h3>Standard</h3>
+                    <h1><span>$</span>80</h1>
+                    <button>Purchase</button>
+                </div>
+
+                <div class="card premium">
+                    <h3>Premium</h3>
+                    <h1><span>$</span>160</h1>
+                    <button>Purchase</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact"></section>
+
+    </main>
+
+    <footer></footer>
 
-
-
-
-
-
-
-<section class="about-section">
-<div class="">
-<h1>About Me</h1>
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum standard dummy text.
-</p>
-<span class="divider"></span>
-</div>
-
-
-<div class="about-content">
-<div class="about-image">
-<img src="./images/profile man.png" alt="Profile Image" />
-</div>
-
-
-<div class="about-text">
-<h2>Hi There</h2>
-<p>
-In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien
-faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis,
-urna est ultricies eros, ac porta sem turpis
-</p>
-<p>
-nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis porta
-sem turpis quis leo. Nulla in feugiat elit
-</p>
-
-
-
-<div><p><h4>Name:</h4>Jonathan Doe</p></div>
-
-<p><h4>Phone;</h4>+1 023 454 345</p>     
-
-<p><h4>email;</h4>chukwunenyekelechi4@gmail.com</p>
-
-<p><h4>linkdin;</h4></p>
-</section>
-
-
-
-<section>
-  <div>
-    <p>I'M EXPERT ON</p>
-    <h1>Let's Work<br>Together</h1>
-
-    <p>
-      Phasellus accumsan scelerisque dolor, quis mattis justo
-      bibendum non. Nulla sollicitudin turpis in enim elementum
-      varius. Vestibulum ante ipsum primis in faucibus orci
-      luctus et ultrices posuere cubilia Curae
-    </p>
-
-    <button>Hire Me Now</button>
-  </div>
-
-  <div>
-    <div>
-      <p>Node JS</p>
-      <div>
-        <span>88%</span>
-      </div>
-    </div>
-
-    <div>
-      <p>Python</p>
-      <div>
-        <span>81%</span>
-      </div>
-    </div>
-
-    <div>
-      <p>Laravel</p>
-      <div>
-        <span>70%</span>
-      </div>
-    </div>
-
-    <div>
-      <p>SEO</p>
-      <div>
-        <span>90%</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div>
-    <p>
-      We’re a WordPress Theme Development company. With more than
-      ten years of knowledge and expertise.
-    </p>
-    <span></span>
-  </div>
-
-  <div>
-    <button>All Works</button>
-    <button>Art Direction</button>
-    <button>Branding</button>
-    <button>Design</button>
-    <button>Web</button>
-  </div>
-    
-
-  <div>
-    <div>
-      <img src="./images/amike1.jpg" alt="Project image one">
-    </div>
-
-    <div>
-      <img src="./images/amike 2.jpg" alt="Project image two">
-    </div>
-
-    <div>
-      <img src="./images/amike 3.jpg" alt="Project image three">
-    </div>
-
-    
-    <div>
-      <img src="./images/amike4.jpg" alt="Project image four">
-    </div>
-
-    
-    <div>
-      <img src="./images/amike5.jpg" alt="Project image five">
-    </div>
-
-    
-    <div>
-      <img src="./images/amike6.jpg" alt="Project image six">
-    </div>
-
-    
-    <div>
-      <img src="./images/amike7.jpg" alt="Project image seven">
-    </div>
-
-    
-    <div>
-      <img src="./images/amike7.jpg" alt="Project image eight">
-    </div>
-
-    
-    <div>
-      <img src="./images/amike8.jpg" alt="Project image nine">
-    </div>
-  </div>
-
-
-        <p>CHOOSE A PLAN</p>
-
-        <h1>Pricing Plan</h1>
-
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum standard dummy text.
-        </p>
-    </section>
-
-     
-
-
-<div class="pricing">
-
-  <div class="card basic">
-    <h3>Basic</h3>
-    <h1><span>$</span>50</h1>
-
-    <ul>
-      <li>5GB Storage Space</li>
-      <li>20GB Monthly Bandwidth</li>
-      <li>MySQL Databases</li>
-      <li>100 Email Account</li>
-      <li>10 Free Domain Names</li>
-    </ul>
-
-    <button>Purchase</button>
-  </div>
-
-  <div class="card standard recommended">
-    <span class="badge">Recommended</span>
-
-    <h3>Standard</h3>
-    <h1><span>$</span>80</h1>
-
-    <ul>
-      <li>5GB Storage Space</li>
-      <li>20GB Monthly Bandwidth</li>
-      <li>MySQL Databases</li>
-      <li>100 Email Account</li>
-      <li>10 Free Domain Names</li>
-    </ul>
-
-    <button>Purchase</button>
-  </div>
-
-  <div class="card premium">
-    <h3>Premium</h3>
-    <h1><span>$</span>160</h1>
-
-    <ul>
-      <li>5GB Storage Space</li>
-      <li>20GB Monthly Bandwidth</li>
-      <li>MySQL Databases</li>
-      <li>100 Email Account</li>
-      <li>10 Free Domain Names</li>
-    </ul>
-
-    <button>Purchase</button>
-  </div>
-
-</div>
-
-
-
-      <footer></footer>
-      <!-- footer -->
-       
 </body>
 </html>

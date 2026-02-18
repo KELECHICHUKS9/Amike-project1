@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+header {
+  background: rgb(31, 34, 53);
+  padding: 28px 64px;
+}
+
+#mobile-menu {
+  display: none;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#branding {
+  width: 90px;
+}
+
+.navitem {
+  list-style: none;
+}
+
+.navitem a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  font-weight: 800px;
+}
+.navitem a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+#home {
+  background: rgb(31, 34, 53);
+  padding: px 84px;
+}
+.boldtitle {
+  font-size: 48px;
+  font-weight: 900;
+  color: aliceblue;
+  letter-spacing: 0.2px;
+  line-height: 1 05;
+  margin: 0 0 14px;
+}
+
+.socialcon {
+  gap: 60px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  margin-bottom: 26px;
+  border: 2px solid;
+  border-radius: 999px;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+
+  box-shadow: o 12px 30px rgb(255, 70, 120, 0.07);
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease;
+}
+
+.socialcon:hover {
+  transform: translateY(-2px);
+  background: rgb(255, 90, 125, 0.12);
+}
+
+#description {
+  font-size: 30px;
+  color: antiquewhite;
+  line-height: 1.7;
+  margin: 0 0 14px;
+  color: rgb(235, 235, 235, 0.75);
+}
+
+.socialbt {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 26px;
+}
+
+#btnmain {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.btn {
+  background: rgb(31, 34, 53);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  display: grid;
+  border: 2px solid #ff4;
+  border-radius: 999px;
+  padding: 0 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.btn:hover {
+  border: rgb(255, 90, 125, 0.95);
+  background: rgb(255, 90, 125, 0.98);
+  padding: 0 22px;
+}
+
+.btnt {
+  color: #fff;
+  background-color: #ff4;
+  width: 80px;
+  height: 40px;
+  padding: 12px 24px;
+  border: 1px solid rgb(255, 255, 255, 0.16);
+  border-radius: 999px;
+  cursor: pointer;
+  margin-right:;
+}
+
+.btnt:hover {
+  transform: translateY(-2px);
+}
+
+.leftside {
+  margin-left: 120px;
+  color: aliceblue;
+}
+
+#myservice {
+  padding: 350px 84pxx;
+  background: rgb(31, 34, 53);
+  color: #fff;
+}
+
+.service-con {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont {
+  width: min(1100px, 0 90px);
+  margin: 0 auto;
+}
+
+.servicecont {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.pwrite {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgb(255, 90, 125, 0.98);
+}
+
+.title {
+  margin: 0 0 14px;
+  font-size: 72px;
+  letter-spacing: 0.2px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.service-icon {
+  padding: 7px 0 90px;
+}
+
+.cardcon {
+  width:;
+  margin: auto;
+}
+
+.card {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+ background-color: rgb(63, 64, 75);
+  border-radius: 15px;
+  padding: 10px 19px;
+}
+.card:hover {
+  border: rgba(229, 18, 64, 0.95);
+  background: rgba(230, 23, 68, 0.98);
+  padding: 0 22px;
+}
+
+.text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.95;
+}
+
+#about{
+  background: rgb(31,34,53);
+   padding: 60px 10%;
+}
+
+
+.text-item{
+max-width: 600px;
+    color: #ffffff; 
+  gap: 4px;
+  
+}
+
+.h1item{
+  color: #ff4;
+}
+
+.content-sectionh1{
+  font-size: 42px;
+}
+  
+
+
+/* personal-info */
+.personal-info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+
+.right-item{
+padding-left: 600px;
+padding-top: 40px;
+}
+
+
+.image-section{
+  width: 350px;
+  padding: 20px;
+  border-radius: 50%;
+  
+}
+
+
+
+/* MEDIA QUERRY */
+@media (max-width: 600px) {
+  header {
+    padding: 28px 16px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #mobile {
+    flex-direction: column;
+  }
+
+  #home {
+    flex-direction: column;
+    padding: 28px 16px;
+    
+  }
+
+  #leftside {
+    text-align: center;
+  }
+
+  .socialbt {
+    width: 100%;
+  }
+  .profileimg {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+  }
+
+  #mobile-menu {
+    display: block;
+  }
+
+
+  .service-con{
+    grid-template-columns: 1fr ;
+    
+  }
+}
